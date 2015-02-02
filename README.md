@@ -2,7 +2,7 @@
 
 [Heroku link][heroku]
 
-[heroku]: http://flux-capacitr.herokuapp.com
+[heroku]: http://bearbnb.herokuapp.com
 
 ## Minimum Viable Product
 Flux-capacitr is a clone of Tumblr built on Rails and Backbone. Users can:
