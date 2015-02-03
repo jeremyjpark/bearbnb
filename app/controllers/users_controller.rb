@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  before_action :require_current_user!, only: [:show]
+  before_action :require_no_current_user!, only: [:new, :create]
+
   before_filter :require_no_current_user!, :only => [:new, :create]
 
   def new
@@ -29,4 +32,4 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:username, :password)
   end
-end
+  end
