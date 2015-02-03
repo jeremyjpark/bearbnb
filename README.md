@@ -9,11 +9,12 @@ BearBnb is a clone of AirBnb for students to find roommates or rooms. Users can:
 
 - [ ] Create accounts
 - [ ] Create sessions (log in)
-- [ ] Create listings
+- [ ] Create listings for a place
+- [ ] Create listings looking for a place
 - [ ] Tag listings with attributes (single/double/location/numBathrooms/etc)
 - [ ] View listings
-- [ ] View a feed of listings
 - [ ] Search for listings by attributes
+- [ ] Message the lister
 
 ## Design Docs
 * [View Wireframes][views]
@@ -24,12 +25,11 @@ BearBnb is a clone of AirBnb for students to find roommates or rooms. Users can:
 
 ## Implementation Timeline
 
-### Phase 1: User Authentication, Basic Blogs and Posts (~1 day)
-I will implement user authentication in Rails based on the practices learned at
-App Academy. By the end of this phase, users will be able to create blogs and
-posts using simple text forms in Rails views. The most important part of this
-phase will be pushing the app to Heroku and ensuring that everything works
-before moving on to phase 2.
+### Phase 1: User Authentication, and listings for a place (~1 day)
+By the end of the first day, the user will be able to log in or sign up. They will
+also be able to make a listing for their place and tag it with attributes, but only through
+the console. In order to move onto phase 2, The user should be able to signup/in, create
+a listing, edit it, and destroy it. All done in rails.
 
 [Details][phase-one]
 
@@ -68,14 +68,8 @@ that will display matching blogs in one column and matching posts in another.
 [Details][phase-five]
 
 ### Bonus Features (TBD)
-- [ ] Activity history for posts (e.g. likes, reblogs, taggings)
-- [x] Custom urls for blogs
-- [x] 'Like' button and counter for `PostShow` view
-- [x] Pagination of the `FeedShow`, `SearchShow`, and `BlogShow` views
-- [ ] Post types with distinct views (image posts, quote posts, etc)
-- [ ] Reblogging
-- [ ] Support for multiple open sessions
-- [x] User avatars
+- [ ] email notification if a listing matches what you're looking for
+- [ ] facebook app integration for user convenience
 
 [phase-one]: ./docs/phases/phase1.md
 [phase-two]: ./docs/phases/phase2.md
