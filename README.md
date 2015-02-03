@@ -13,6 +13,7 @@ BearBnb is a clone of AirBnb for students to find roommates or rooms. Users can:
 - [ ] Create listings looking for a place
 - [ ] Tag listings with attributes (single/double/location/numBathrooms/etc)
 - [ ] View listings
+- [ ] Follow listings
 - [ ] Search for listings by attributes
 - [ ] Message the lister
 
@@ -49,15 +50,6 @@ users can add images to blog posts.
 
 [Details][phase-three]
 
-### Phase 4: User Feeds (~1-2 days)
-I'll start by adding a `feed` route that uses the `current_user`'s
-`subscribed_blogs` association to serve a list of blog posts ordered
-chronologically. On the Backbone side, I'll make a `FeedPosts` collection that
-fetches from the new route, then create a `FeedShow` view that uses the new
-collection. Ultimately, this will be the page users see after logging in.
-
-[Details][phase-four]
-
 ### Phase 5: Searching for Blogs and Posts (~2 days)
 I'll need a `search` route that accepts a query in the params. The controller
 action will run two queries: one to find blogs where the `title` matches
@@ -70,6 +62,7 @@ that will display matching blogs in one column and matching posts in another.
 ### Bonus Features (TBD)
 - [ ] email notification if a listing matches what you're looking for
 - [ ] facebook app integration for user convenience
+- [ ] groups of people can look together
 
 [phase-one]: ./docs/phases/phase1.md
 [phase-two]: ./docs/phases/phase2.md
