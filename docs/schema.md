@@ -1,17 +1,18 @@
 # Schema Information
 
-## blogs
+## listing
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
 owner_id    | integer   | not null, foreign key (references users)
 title       | string    | not null
+description | string    |
 
 ## followings
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-blog_id     | integer   | not null, foreign key (references blogs)
+listing_id  | integer   | not null, foreign key (references listings)
 follower_id | integer   | not null, foreign key (references users)
 
 ## posts

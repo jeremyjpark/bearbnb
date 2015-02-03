@@ -1,28 +1,25 @@
-# Flux-capacitr
+# BearBnb
 
 [Heroku link][heroku]
 
 [heroku]: http://bearbnb.herokuapp.com
 
 ## Minimum Viable Product
-Flux-capacitr is a clone of Tumblr built on Rails and Backbone. Users can:
+BearBnb is a clone of AirBnb for students to find roommates or rooms. Users can:
 
-- [x] Create accounts
-- [x] Create sessions (log in)
-- [x] Create blogs
-- [x] Create blog posts
-- [x] Tag blog posts
-- [x] View blogs and posts
-- [x] Subscribe to blogs
-- [x] View a feed of subscribed blogs
-- [x] Search for blogs by title
-- [x] Search for posts by tag
+- [ ] Create accounts
+- [ ] Create sessions (log in)
+- [ ] Create listings
+- [ ] Tag listings with attributes (single/double/location/numBathrooms/etc)
+- [ ] View listings
+- [ ] View a feed of listings
+- [ ] Search for listings by attributes
 
 ## Design Docs
 * [View Wireframes][views]
 * [DB schema][schema]
 
-[views]: ./docs/views.md
+[views]: 
 [schema]: ./docs/schema.md
 
 ## Implementation Timeline
