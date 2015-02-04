@@ -453,3 +453,87 @@
 [02/03/15 17:36:41 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"show", :controller=>"users", :id=>nil} missing required keys: [:id]
 [02/03/15 17:36:51 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `id' for nil:NilClass
 [02/03/15 17:37:09 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Cannot redirect to nil!
+[02/04/15 10:04:27 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template static_pages/root, application/root with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:06:13 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"show", :controller=>"users"} missing required keys: [:id]
+[02/04/15 10:39:23 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find User with 'id'=2
+[02/04/15 10:43:05 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The action 'new' could not be found for Api::PlacesController
+[02/04/15 10:44:21 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:45:38 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:45:39 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:45:52 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:46:36 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:46:38 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:47:02 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:47:03 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:48:24 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `json' for #<Api::PlacesController:0x007fa140a1a9f8>
+[02/04/15 10:49:21 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:49:22 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:49:23 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:49:23 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:49:43 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/jeremyjpark/Documents/appacadamy/final-project/app/views/api/places/new.json.jbuilder:1: syntax error, unexpected '<', expecting keyword_end
+...|=JbuilderTemplate.new(self); <form>
+...                               ^
+/Users/jeremyjpark/Documents/appacadamy/final-project/app/views/api/places/new.json.jbuilder:2: unterminated regexp meets end of file
+[02/04/15 10:49:44 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/jeremyjpark/Documents/appacadamy/final-project/app/views/api/places/new.json.jbuilder:1: syntax error, unexpected '<', expecting keyword_end
+...|=JbuilderTemplate.new(self); <form>
+...                               ^
+/Users/jeremyjpark/Documents/appacadamy/final-project/app/views/api/places/new.json.jbuilder:2: unterminated regexp meets end of file
+[02/04/15 10:52:37 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:53:06 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:53:54 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project"
+  * "/"
+
+[02/04/15 10:54:08 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project"
+  * "/"
+
+[02/04/15 10:54:14 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template /api with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project"
+  * "/"
+
+[02/04/15 10:54:18 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `empty?' for nil:NilClass
+[02/04/15 10:54:23 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Missing template api/places/new, application/new with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeremyjpark/Documents/appacadamy/final-project/app/views"
+
+[02/04/15 10:54:29 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `html' for :new:Symbol
+[02/04/15 10:58:00 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `action' for #<#<Class:0x007fa140950a40>:0x007fa140b009a8>
+[02/04/15 10:58:21 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `api_places' for #<#<Class:0x007fa140950a40>:0x007fa13a5e4470>
+[02/04/15 10:58:22 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `api_places' for #<#<Class:0x007fa140950a40>:0x007fa13a48d4f0>
+[02/04/15 10:58:22 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `api_places' for #<#<Class:0x007fa140950a40>:0x007fa140978fb8>
+[02/04/15 10:58:23 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `api_places' for #<#<Class:0x007fa140950a40>:0x007fa13a3dee50>
+[02/04/15 10:58:36 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `username' for nil:NilClass
+[02/04/15 11:08:38 -0800 Jeremys-MacBook-Pro-4.local (78458)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Place with 'id'=api

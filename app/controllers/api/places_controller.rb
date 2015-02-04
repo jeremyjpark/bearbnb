@@ -4,7 +4,8 @@ module Api
       @place = Place.new(place_params)
 
       if @place.save
-        render json: @place
+        flash.now[:success] = ["New Listing Created!"]
+        render :show
       else
         render json: @place.errors.full_messages, status: :unprocessable_entity
       end
@@ -18,23 +19,19 @@ module Api
 
     def index
       @places = Place.all
-      render json: @places
+      render :index
     end
 
     def show
-      # @place = place.includes(:members, lists: :cards).find(params[:id])
-
-      # if @place.is_member?(current_user)
-      #   render :show
-      # else
-      #   render json: ["You aren't a member of this place"], status: 403
-      # end
+      @place = Place.find(params[:id])
+      render :show
     end
 
     private
 
-    def board_params
-      params.require(:place).permit(:title)
+    def place_params
+      params.require(:place).permit(:title, :price, :utilities, :deposit, :type, :preference,
+        :start_date, :end_date, :laundry, :agreement, :email, :phonenum, :desc, :address)
     end
   end
 end

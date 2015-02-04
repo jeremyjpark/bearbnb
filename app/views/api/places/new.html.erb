@@ -1,0 +1,15 @@
+<form action='#new' method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label>Title:
+    <input type="text" value="<%= @place.title %>" name="place[title]">
+  </label>
+  <br>
+
+  <label>Price:
+    <input type="text" value="<%= @place.price %>" name="place[price]">
+  </label>
+  <br>
+
+  <input type="submit" value="Create Listing">
+</form>
+
