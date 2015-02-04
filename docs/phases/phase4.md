@@ -1,21 +1,22 @@
-# Phase 4: User Feeds
+# Phase 4: Filtering for listings (search)
 
 ## Rails
 ### Models
 
 ### Controllers
-Api::PostsController (feed)
+Api::Places
 
 ### Views
-posts/feed.json.jbuilder
 
 ## Backbone
 ### Models
 
 ### Collections
-* FeedPosts
+* Places
+* Filters
 
 ### Views
-* FeedShow (composite view, contains PostShow subviews)
+* SearchShow (composite view, contains PostShow subviews)
+* UserShow (composite View, contains PlaceShow subviews)
 
 ## Gems/Libraries

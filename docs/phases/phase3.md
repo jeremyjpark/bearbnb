@@ -1,4 +1,4 @@
-# Phase 3: Editing and Displaying Posts
+# Phase 3: Google Maps integration and search View
 
 ## Rails
 ### Models
@@ -13,9 +13,7 @@
 ### Collections
 
 ### Views
-* PostForm
+* SearchShow
 
 ## Gems/Libraries
-* Filepicker
-* Markdown-js
-* Bootstrap Markdown
+* Google Maps

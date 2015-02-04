@@ -21,7 +21,7 @@ BearBnb is a clone of AirBnb for students to find roommates or rooms. Users can:
 * [View Wireframes][views]
 * [DB schema][schema]
 
-[views]: 
+[views]: ./docs/wireframes
 [schema]: ./docs/schema.md
 
 ## Implementation Timeline
@@ -50,17 +50,16 @@ Integrate the google maps view into the search view. Still no search functionali
 
 [Details][phase-three]
 
-### Phase 4: Filtering for listings (~1 days)
+### Phase 4: Filtering for listings (~2 days)
 A filtering route will take care of processing the attributes that I'm looking for in a search
-query.
+query. Also implement following feature to follow and unfollow places (essentailly a save function so they end up on the user's home page.)
 
 [Details][phase-four]
 
-### Phase 5: CSS (~1 days)
-A filtering route will take care of processing the attributes that I'm looking for in a search
-query.
+### Phase 5: CSS/Bootstrap (~1 days)
+Fill out CSS and Bootstrap
 
-[Details][phase-four]
+[Details][phase-five]
 
 
 ### Bonus Features (TBD)
