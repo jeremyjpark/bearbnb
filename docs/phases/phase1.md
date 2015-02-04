@@ -8,15 +8,18 @@
 ### Controllers
 * UsersController (create, new)
 * SessionsController (create, new, destroy)
-* BlogsController (create, new, show)
-* PostsController (create, new, show)
+* PlacesController (create, new, show)
+* FiltersController (create, new, show)
 
 ### Views
+* static_pages/root.html.erb
 * users/new.html.erb
+* users/show.html.erb
 * session/new.html.erb
-* blogs/new.html.erb
-* blogs/show.html.erb
-* posts/show.html.erb
+* places/new.html.erb
+* places/edit.html.erb
+* places/show.html.erb
+* places/index.html.erb
 
 ## Backbone
 ### Models

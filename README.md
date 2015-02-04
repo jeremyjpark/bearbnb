@@ -30,39 +30,44 @@ BearBnb is a clone of AirBnb for students to find roommates or rooms. Users can:
 By the end of the first day, the user will be able to log in or sign up. They will
 also be able to make a listing for their place and tag it with attributes, but only through
 the console. In order to move onto phase 2, The user should be able to signup/in, create
-a listing, edit it, and destroy it. All done in rails.
+a listing, edit it, and destroy it. All done in rails. What does this look like? Probably 
+terrible, but at least it's all in Rails. I don't see a need to convert to partials, but it
+all really depends on whether or not I like how it looks.
+
 
 [Details][phase-one]
 
-### Phase 2: JSON API and First Backbone Views (~2 days)
-I will add API routes to serve blog and post data as JSON, then add Backbone
-models and collections that fetch data from those routes. By the end of this
-phase, the existing Rails views will have been ported over to Backbone.
+### Phase 2: JSON API and Backbone Views (~2 days)
+Conversion of Rails Views to Backbone Views. Add models, collections, router file.
+At the end of this phase, the site should look more or less the same on Heroku, but 
+should be running on Backbone. No file uploads or maps included yet. Home page, user page,
+listings should be up.
 
 [Details][phase-two]
 
-### Phase 3: Editing and Displaying Posts (~2 days)
-I plan to use third-party libraries to add functionality to the `PostForm` and
-`PostShow` views in this phase. First I'll need to add a Markdown editor to the
-`PostForm`, and make sure that the Markdown is properly escaped and formatted in
-the `PostShow` view. I also plan to integrate Filepicker for file upload so
-users can add images to blog posts.
+### Phase 3: Google Maps integration and search view (~1 days)
+Integrate the google maps view into the search view. Still no search functionality, though it should look good on the screen (sans a working search)
 
 [Details][phase-three]
 
-### Phase 5: Searching for Blogs and Posts (~2 days)
-I'll need a `search` route that accepts a query in the params. The controller
-action will run two queries: one to find blogs where the `title` matches
-the search term, and another to find posts where one of their associated `Tag`s
-matches the search term. In Backbone, I plan to implement a `SearchResults` view
-that will display matching blogs in one column and matching posts in another.
+### Phase 4: Filtering for listings (~1 days)
+A filtering route will take care of processing the attributes that I'm looking for in a search
+query.
 
-[Details][phase-five]
+[Details][phase-four]
+
+### Phase 5: CSS (~1 days)
+A filtering route will take care of processing the attributes that I'm looking for in a search
+query.
+
+[Details][phase-four]
+
 
 ### Bonus Features (TBD)
 - [ ] email notification if a listing matches what you're looking for
 - [ ] facebook app integration for user convenience
 - [ ] groups of people can look together
+- [ ] authentication via devise and omniauth
 
 [phase-one]: ./docs/phases/phase1.md
 [phase-two]: ./docs/phases/phase2.md
