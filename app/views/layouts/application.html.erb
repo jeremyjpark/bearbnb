@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>BearBnb</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -10,7 +10,7 @@
 <header>
   <%= render 'shared/nav' %>
   <% if flash[:notices] %>
-    <div class="notices">
+  <div class="alert alert-warning notices" role="alert">
       <% flash[:notices].each do |msg| %>
         <p><b><%= msg %></b></p>
       <% end %>

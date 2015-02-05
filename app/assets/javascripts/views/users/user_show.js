@@ -25,6 +25,6 @@ BearBnb.Views.UserShow = Backbone.CompositeView.extend({
   },
 
   renderPlaces: function() {
-
+    console.log("hshdhfiuhlololol");
   }
 });
