@@ -1,1 +1,20 @@
-json.partial! @place, partial: 'place', as: :place
+json.extract!(@place,
+  :id,
+  :user_id,
+  :title,
+  :price,
+  :deposit,
+  :utilities,
+  :room,
+  :preference,
+  :start_date,
+  :end_date,
+  :laundry,
+  :agreement,
+  :email,
+  :phonenum,
+  :desc,
+  :address,
+  :created_at, 
+  :updated_at
+)

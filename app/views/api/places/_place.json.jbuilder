@@ -1,8 +1,21 @@
 json.extract!(
   place,
   :id,
+  :user_id,
+  :title,
   :price,
-  :address,
+  :deposit,
+  :utilities,
+  :room,
+  :preference,
+  :start_date,
+  :end_date,
+  :laundry,
+  :agreement,
+  :email,
+  :phonenum,
   :desc,
-  :user_id
+  :address,
+  :created_at, 
+  :updated_at
 )
