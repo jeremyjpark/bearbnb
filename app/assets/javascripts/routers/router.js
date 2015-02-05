@@ -8,7 +8,8 @@ BearBnb.Routers.Router = Backbone.Router.extend({
     "search": "search",
     "places": "browsePlaces",
     "places/new": "newPlace",
-    "places/:id": "showPlace"
+    "places/:id": "showPlace",
+    "users/:id": "showUser"
   },
 
   welcome: function() {
@@ -34,7 +35,17 @@ BearBnb.Routers.Router = Backbone.Router.extend({
       model: place
     });
 
-    this._swapview(newView);
+    this._swapview(showView);
+  },
+
+  showUser: function(id) {
+    var user = BearBnb.Collections.users.getOrFetch(id);
+    var showView = new BearBnb.Views.UserShow({
+      model: user
+    });
+
+    this._swapview(showView);
+
   },
 
   _swapview: function(view) {
