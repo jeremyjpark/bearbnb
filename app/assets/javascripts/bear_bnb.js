@@ -4,7 +4,10 @@ window.BearBnb = {
   Views: {},
   Routers: {},
   initialize: function() {
-    // alert('Hello from Backbone!');
+    new BearBnb.Routers.Router({
+      $rootEl: $("#main")
+    });
+    Backbone.history.start();
   }
 };
 

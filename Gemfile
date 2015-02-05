@@ -1,32 +1,30 @@
 source 'https://rubygems.org'
 
+gem 'rails', '4.1.8'
 gem 'backbone-on-rails'
 gem 'bcrypt'
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+gem 'turbolinks'
 gem 'coffee-rails', '~> 4.0.0'
-gem 'font-awesome-rails' #might not need
+gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
-gem 'jbuilder', '~> 2.0'
-gem 'rails', '4.1.8'
-gem 'sass-rails', '~> 4.0.3'
-gem 'turbolinks'
-gem 'newrelic_rpm'
+gem 'jbuilder', '~> 1.2'
+gem 'sass-rails', '~> 4.0.0'
 gem 'pg'
 gem 'uglifier', '>= 1.3.0'
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'newrelic_rpm'
 
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+group :doc do
+  gem 'sdoc', require: false
+end
 
-# Use ActiveModel has_secure_password
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+group :development do
+  gem 'annotate'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-rails'
+  gem 'byebug'
+end
 

@@ -22,3 +22,5 @@ BearBnb.Collections.Places = Backbone.Collection.extend({
   }
 
 });
+
+BearBnb.Collections.places = new BearBnb.Collections.Places();

@@ -19,9 +19,10 @@ class User < ActiveRecord::Base
   validates :session_token, presence: true
   validates :username, uniqueness: true, presence: true
   validates :password, length: { minimum: 6, allow_nil: true }
-  validates :password_digest, presence: { message: "Password can't be blank." }
 
   before_validation :ensure_session_token
+
+  #ADD ASSOCIATIONS
 
   def self.find_by_credentials(username, password)
     user_by_un = User.find_by_username(username)
@@ -39,13 +40,13 @@ class User < ActiveRecord::Base
     self.session_token
   end
 
-  def is_password?(maybe_password)
-    BCrypt::Password.new(self.password_digest).is_password?(maybe_password)
+  def is_password?(password)
+    BCrypt::Password.new(self.password_digest).is_password?(password)
   end
 
-  def password=(new_pw)
-    @password = new_pw
-    self.password_digest = BCrypt::Password.create(new_pw)
+  def password=(password)
+    @password = password
+    self.password_digest = BCrypt::Password.create(password)
   end
 
   private

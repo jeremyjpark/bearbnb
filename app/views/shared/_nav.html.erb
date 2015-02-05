@@ -1,0 +1,18 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">BearBnb</a>
+    </div>
+
+    <div class="navbar navbar-right">
+      <% if current_user %>
+        <p>Welcome <%= current_user.username %></p>
+        <%= button_to "Log Out", session_url, method: :delete %>
+      <% else %>
+        <%= link_to "Sign Up", new_user_url %>
+        <%= link_to "Log In", new_session_url %>
+      <% end %>
+    </div>
+
+  </div>
+</nav>
