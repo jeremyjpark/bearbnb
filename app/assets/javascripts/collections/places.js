@@ -19,7 +19,16 @@ BearBnb.Collections.Places = Backbone.Collection.extend({
     }
 
     return place
+  },
+
+  parse: function(response) {
+    debugger
+    // this.page = parseInt(response.page);
+    // this.total_pages = parseInt(response.total_pages);
+    // this.total_count = parseInt(response.total_count);
+    // return response.meals;
   }
+
 
 });
 

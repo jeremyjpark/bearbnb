@@ -3,7 +3,10 @@
 //= require jquery.ui.slider
 //= require underscore
 //= require backbone
+//= require serializeJSON
 //= require bootstrap
+//= require moment
+//= require bootstrap-datetimepicker
 //= require bootstrap-sprockets
 //= require bear_bnb
 //= require_tree ../templates

@@ -56,6 +56,8 @@ GEM
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
+    bootstrap3-datetimepicker-rails (4.0.0)
+      momentjs-rails (>= 2.8.1)
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
@@ -99,6 +101,8 @@ GEM
     method_source (0.8.2)
     mime-types (2.4.3)
     minitest (5.5.1)
+    momentjs-rails (2.9.0)
+      railties (>= 3.1)
     multi_json (1.10.1)
     newrelic_rpm (3.9.9.275)
     pg (0.18.1)
@@ -170,12 +174,14 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass
+  bootstrap3-datetimepicker-rails (~> 4.0.0)
   byebug
   coffee-rails (~> 4.0.0)
   font-awesome-rails
   jbuilder (~> 1.2)
   jquery-rails
   jquery-ui-rails
+  momentjs-rails (>= 2.8.1)
   newrelic_rpm
   pg
   pry-rails

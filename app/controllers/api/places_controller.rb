@@ -2,6 +2,7 @@ module Api
   class Api::PlacesController < ApplicationController
     def create
       @place = Place.new(place_params)
+      @place[:user_id] = current_user.id
 
       if @place.save
         flash.now[:success] = ["New Listing Created!"]
@@ -30,8 +31,8 @@ module Api
     private
 
     def place_params
-      params.require(:place).permit(:title, :price, :utilities, :deposit, :type, :preference,
-        :start_date, :end_date, :laundry, :agreement, :email, :phonenum, :desc, :address)
+      params.require(:place).permit(:title, :price, :utilities, :deposit, :room, :preference,
+        :start_date, :end_date, :laundry, :agreement, :email, :phonenum, :desc, :address, :user_id)
     end
   end
 end
