@@ -6,34 +6,28 @@ BearBnb.Views.PlaceNew = Backbone.View.extend({
     "click .btn": "submitForm",
   },
 
+  // initialize: function() {
+  //   this.listenTo(this.)
+  // }
+
   render: function() {
     var content = this.template();
     this.$el.html(content);
     return this;
-  },  
-
-  parse: function(objName) {
-    var self = this,
-      _recurse_form = function(object, objName) {
-        _.each(object, function(v,k) {
-           if (v instanceof Object) {
-              object[k] = _recurse_form(v, objName + '[' + k + '_attributes]');
-           } else {
-              object[k] = self.$('[name="'+ objName + '[' + k + ']"]').val();
-           }
-        });
-        return object;
-      };
-   this.model.attributes = _recurse_form(this.model.attributes, objName);
   },
 
-
+  // submits the form to be added to the database, adds information to the db,
+  // and navigates back to the root page.
   submitForm: function(event) {
     event.preventDefault();
     var target = $('.new-place').serializeJSON();
-    // BearBnb.Collections.places.create(target);
-    console.log("place");
-    // Backbone.history.navigate("");
-    // this.render();
+    var model = new BearBnb.Models.Place();
+    model.save(target, {
+      success: function() {
+        BearBnb.Collections.places.add(model);
+        debugger
+        Backbone.history.navigate("places/" + model.id, { trigger: true });
+      }
+    })
   }
 });
