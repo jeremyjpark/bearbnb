@@ -24,6 +24,7 @@ BearBnb.Views.PlaceNew = Backbone.View.extend({
     var model = new BearBnb.Models.Place();
     model.save(target, {
       success: function() {
+        debugger
         BearBnb.Collections.places.add(model);
         Backbone.history.navigate("places/" + model.id, { trigger: true });
       }
