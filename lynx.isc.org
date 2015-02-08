@@ -1,0 +1,82 @@
+<!-- X-URL: http://lynx.isc.org/ -->
+<!-- Date: Sat, 07 Feb 2015 06:52:44 GMT -->
+<!-- Last-Modified: Fri, 14 Feb 2014 14:50:33 GMT -->
+<BASE HREF="http://lynx.isc.org/">
+
+<!-- $Id: index.html,v 1.16 2014/02/14 14:50:33 dickey Exp $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for FreeBSD (vers 7 December 2008), see www.w3.org">
+
+  <title>Lynx source distribution</title>
+  <link rev="made" href="mailto:lynx-dev@nongnu.org">
+  <link rel="stylesheet" href="/css/simplestyle.css" type=
+  "text/css">
+  <meta name="description" content=
+  "Lynx browser source code distribution">
+  <meta name="keywords" content=
+  "lynx text web browser UNIX VMS Win32 OS2 source lynx-dev lynx.isc.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=us-ascii">
+  <style type="text/css">
+@import "/css/simplenav22.css" all;
+  </style>
+</head>
+
+<body>
+  <h1 class="no-header">Lynx source distribution</h1>
+
+  <div class="nav">
+    <ul>
+      <li><a href="http://lynx.isc.org/">Home page</a></li>
+
+      <li><a href="/current/index.html">Current
+      development</a></li>
+
+      <li><a href="http://lynx.isc.org/release/">Stable
+      release</a></li>
+
+      <li><a href="/mirrors.html">Mirror sites</a></li>
+    </ul>
+  </div>
+
+  <p><strong>Lynx</strong> is the <em>text</em> web browser.</p>
+
+  <p>This is the top level page for the <strong>Lynx</strong>
+  software distribution site hosted by the <strong>Internet
+  Software Consortium</strong>.</p>
+
+  <p>The <a href="current/index.html">current development</a>
+  sources have the latest version of <strong>Lynx</strong>
+  available (development towards 2.8.9).<br>
+  The <a href=
+  "current/lynx_help/lynx_help_main.html">main help</a>
+  page for lynx-current is online; the current <a href=
+  "current/lynx_help/Lynx_users_guide.html">User
+  Guide</a> is part of the online documentation.</p>
+
+  <p>The most recent stable release is <a href=
+  "lynx2.8.8/index.html">lynx2-8-8</a>.</p>
+
+  <p>Other resources include:</p>
+
+  <ul>
+    <li><a href="mirrors.html">ftp and http mirrors</a></li>
+
+    <li><a href=
+    "http://lists.nongnu.org/mailman/listinfo/lynx-dev/">Mailing
+    list archives</a></li>
+
+    <li><a href="signatures.html">pgp/gpg signatures</a></li>
+  </ul>
+  <hr>
+
+  <p><img src="graphics/anybrowser4b.png" alt=
+  "Viewable with any browser;"> <a href=
+  "http://validator.w3.org/check?uri=http%3A%2F%2Flynx.isc.org%2Findex.html">
+  valid HTML.</a></p>
+</body>
+</html>

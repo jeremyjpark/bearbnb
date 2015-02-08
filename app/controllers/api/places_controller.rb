@@ -24,8 +24,14 @@ module Api
     end
 
     def show
-      @place = Place.find(params[:id])
-      render :show
+      begin
+        @place = Place.find(params[:id])
+      rescue
+        redirect_to api_places_url
+      end
+      if @place
+        render :show
+      end
     end
 
     private

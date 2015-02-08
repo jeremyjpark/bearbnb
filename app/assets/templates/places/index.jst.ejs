@@ -1,0 +1,14 @@
+<h3>This is going to eventually show all of the places in the db, depending on 
+location. The default location is going to be in the intersection of bancroft and telegraph. </h3>
+
+<div class="col-md-6">
+<table class="table table-hover table-bordered">
+<% _(places.models).each(function(place) { %>
+    <tr>
+        <td class="text-capitalize col-md-3"><%= place.get("title") %></td>
+      <td><%= place.get("price") %></td>
+      <td><%= place.get("address") %></td>
+    </tr>
+<% }) %>
+</table>
+</div>

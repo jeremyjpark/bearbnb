@@ -21,7 +21,16 @@ BearBnb.Routers.Router = Backbone.Router.extend({
   },
 
   browsePlaces: function() {
-    // Browsing view, is this actually part of the search view?
+    var that = this;
+    BearBnb.Collections.places.fetch({
+      success: function() {
+        var newView = new BearBnb.Views.PlacesIndex({
+          collection: BearBnb.Collections.places
+        });
+        
+        that._swapview(newView);
+      }
+    });
   },
 
   newPlace: function() {
