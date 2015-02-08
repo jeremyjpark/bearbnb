@@ -9,7 +9,8 @@ BearBnb.Routers.Router = Backbone.Router.extend({
     "places": "browsePlaces",
     "places/new": "newPlace",
     "places/:id": "showPlace",
-    "users/:id": "showUser"
+    "users/:id": "showUser",
+    "map": "showMap"
   },
 
   welcome: function() {
