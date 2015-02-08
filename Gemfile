@@ -16,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'newrelic_rpm'
 gem 'momentjs-rails', '>= 2.8.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
-
+gem 'figaro'
 
 group :doc do
   gem 'sdoc', require: false
