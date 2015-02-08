@@ -23,6 +23,7 @@ class User < ActiveRecord::Base
   before_validation :ensure_session_token
 
   #ADD ASSOCIATIONS
+  has_one :place
 
   def self.find_by_credentials(username, password)
     user_by_un = User.find_by_username(username)
