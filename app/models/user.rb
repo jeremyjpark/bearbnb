@@ -24,6 +24,7 @@ class User < ActiveRecord::Base
 
   #ADD ASSOCIATIONS
   has_one :place
+  has_many :images
 
   def self.find_by_credentials(username, password)
     user_by_un = User.find_by_username(username)

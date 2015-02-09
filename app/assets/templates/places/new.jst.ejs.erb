@@ -1,0 +1,97 @@
+
+<form class="new-place">
+
+<div class="input-group col-md-4 col-md-pull-0">
+  <span class="input-group-addon" id="basic-addon1">Title</span>
+  <input type="text" name="title" class="form-control" placeholder="Blurb (mandatory field)" aria-describedby="basic-addon1">
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon2">Price</span>
+  <input type="integer" class="form-control" name="price" placeholder="Monthly Rent (mandatory field)" aria-describedby="basic-addon2">
+  <input type="text" class="form-control" name="utilities" placeholder="Monthly Utilities" aria-describedby="basic-addon2">
+  <input type="text" class="form-control" name="deposit" placeholder="Deposit" aria-describedby="basic-addon2">
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon3">Room Type</span>
+  <select class="form-control" name="room" id="sel1">
+    <option>Shared Room</option>
+    <option>Single Room</option>
+    <option>Either</option>
+  </select>
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon4">Preference</span>
+  <select class="form-control" name="preference" id="sel1">
+    <option>Male/Female</option>
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon5">Laundry</span>
+  <select class="form-control" name="laundry" id="sel1">
+    <option>Onsite Coin</option>
+    <option>Free</option>
+    <option>Laundromat</option>
+  </select>
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon6">Agreement</span>
+  <select class="form-control" name="agreement" id="sel1">
+    <option>Lease</option>
+    <option>Sublet</option>
+  </select>
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon7">Address</span>
+  <input type="text" name="address" class="form-control" placeholder="2570 Hearst Avenue, 94709" aria-describedby="basic-addon1">
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon8">Description</span>
+  <textarea class="form-control" name="desc" placeholder="Some information about yourself or your place" rows="5" id="comment"></textarea>
+</div>
+
+<div class="row">
+    <div class='col-sm-4'>
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker1'>
+                <input type='text' name='start_date' class="form-control" />
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker({
+              format: 'LL'
+            });
+        });
+    </script>
+</div>
+
+<input type="filepicker" 
+        data-fp-apikey="<%= ENV['filepicker_api_key'] %>"
+        data-fp-mimetypes="image/*" 
+        data-fp-container="modal" 
+        data-fp-multiple="true" 
+        data-fp-maxsize="2500000" 
+        data-fp-services="COMPUTER,DROPBOX,FACEBOOK,FLICKR,GMAIL,INSTAGRAM,URL" 
+        onchange="out='';
+
+        for(var i=0;i<event.fpfiles.length;i++) { 
+          out+=event.fpfiles[i].url;out+=' '
+        };
+
+        alert(out)">
+
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon9">Description</span>
+  <textarea class="form-control" name="desc" placeholder="Some information about yourself or your place" rows="5" id="comment"></textarea>
+</div>
+
+
+<div class="input-group col-md-4">
+  <button type="submit" class="btn btn-default">Create New Listing</button>
+</div>
+</form>
