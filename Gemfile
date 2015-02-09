@@ -17,6 +17,7 @@ gem 'newrelic_rpm'
 gem 'momentjs-rails', '>= 2.8.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
 gem 'figaro'
+gem 'filepicker-rails'
 
 group :doc do
   gem 'sdoc', require: false
