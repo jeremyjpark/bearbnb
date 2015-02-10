@@ -1,3 +1,13 @@
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker1').datetimepicker({
+          format: 'LL'
+        });
+        $('#datetimepicker2').datetimepicker({
+          format: 'LL'
+        });
+    });
+</script>
 
 <form class="new-place">
 
@@ -51,47 +61,34 @@
   <textarea class="form-control" name="desc" placeholder="Some information about yourself or your place" rows="5" id="comment"></textarea>
 </div>
 
-<div class="row">
-    <div class='col-sm-4'>
-        <div class="form-group">
-            <div class='input-group date' id='datetimepicker1'>
-                <input type='text' name='start_date' class="form-control" />
-                <span class="input-group-addon">
-                  <span class="glyphicon glyphicon-calendar"></span>
-                </span>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        $(function () {
-            $('#datetimepicker1').datetimepicker({
-              format: 'LL'
-            });
-        });
-    </script>
-      <input type="filepicker" 
-              name="image_urls"
-              class="btn btn-default"
-              data-fp-button-text="Add Image"
-              data-fp-apikey="<%= ENV['filepicker_api_key'] %>"
-              data-fp-mimetypes="image/*" 
-              data-fp-container="modal" 
-              data-fp-multiple="true" 
-              data-fp-maxsize="2500000" 
-              data-fp-services="COMPUTER,DROPBOX,FACEBOOK,FLICKR,GMAIL,INSTAGRAM,URL" 
-              onchange="out='';
-
-              for(var i=0;i<event.fpfiles.length;i++) { 
-                out+=event.fpfiles[i].url;out+=' '
-              };
-
-              alert('Uploaded!')">
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon9">Start Date</span>
+  <input type='text' name='start_date' class="form-control" id='datetimepicker1' /> 
+</div>
+<div class="input-group col-md-4">
+  <span class="input-group-addon" id="basic-addon10">End Date</span>
+  <input type='text' name='end_date' class="form-control" id='datetimepicker2' />
 </div>
 
-
-
+<br>
 
 <div class="input-group col-md-4">
+  <input 
+    type="filepicker" 
+    name="image_urls"
+    class="btn btn-default"
+    data-fp-button-text="Add Image"
+    data-fp-apikey="<%= ENV['filepicker_api_key'] %>"
+    data-fp-mimetypes="image/*" 
+    data-fp-container="modal" 
+    data-fp-multiple="true" 
+    data-fp-maxsize="2500000" 
+    data-fp-services="COMPUTER,DROPBOX,FACEBOOK,FLICKR,GMAIL,INSTAGRAM,URL" 
+    onchange="out='';
+    for(var i=0;i<event.fpfiles.length;i++) { 
+      out+=event.fpfiles[i].url;out+=' '
+    };
+    alert('Uploaded!')">
   <button type="submit" class="btn btn-default formsubmit">Create New Listing</button>
 </div>
 </form>

@@ -27,8 +27,7 @@ BearBnb.Routers.Router = Backbone.Router.extend({
       success: function() {
         var newView = new BearBnb.Views.PlacesIndex({
           collection: BearBnb.Collections.places
-        });
-        
+        });        
         that._swapview(newView);
       }
     });
