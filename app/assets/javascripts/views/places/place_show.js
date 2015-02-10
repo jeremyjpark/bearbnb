@@ -7,7 +7,7 @@ BearBnb.Views.PlaceShow = Backbone.View.extend({
   },
 
   render: function() {
-    var attrs = [ "title", "price", "deposit", "utilities", "room", "preference", "laundry", "agreement", "address", "start_date", "end_date", "desc" ];
+    var attrs = [ "title", "price", "deposit", "utilities", "room", "preference", "laundry", "agreement", "address", "start_date", "end_date", "desc" ];  
     var urls = [ "image_urls" ];
     var content = this.template({
       images: urls,

@@ -5,26 +5,25 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-</head>
-<body data-env="<%= Rails.env %>">
-<header>
-  <%= render 'shared/nav' %>
-  <% if flash[:notices] %>
-  <div class="alert alert-warning notices" role="alert">
-      <% flash[:notices].each do |msg| %>
-        <p><b><%= msg %></b></p>
+  </head>
+  <body data-env="<%= Rails.env %>">
+    <header>
+      <%= render 'shared/nav' %>
+      <% if flash[:notices] %>
+      <div class="alert alert-warning notices" role="alert">
+          <% flash[:notices].each do |msg| %>
+            <p><b><%= msg %></b></p>
+          <% end %>
+        </div>
       <% end %>
-    </div>
-  <% end %>
-</header>
-<body>
+    </header>
+  </body>
+  <body>
 
-<%= yield %>
+    <%= yield %>
 
-<script type="text/javascript"
- src="//api.filepicker.io/v1/filepicker.js">
-  filepicker.setKey("<%= ENV["filepicker_api_key"] %>")
-
-</script>
-</body>
+    <script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js">
+      filepicker.setKey("<%= ENV["filepicker_api_key"] %>")
+    </script>
+  </body>
 </html>
