@@ -38,7 +38,7 @@ module Api
 
     def place_params
       params.require(:place).permit(:title, :price, :utilities, :deposit, :room, :preference,
-        :start_date, :end_date, :laundry, :agreement, :email, :phonenum, :desc, :address)
+        :start_date, :end_date, :laundry, :agreement, :email, :phonenum, :desc, :address, :image_urls)
     end
   end
 end

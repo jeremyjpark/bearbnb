@@ -3,7 +3,7 @@ BearBnb.Views.PlaceNew = Backbone.View.extend({
   template: JST['places/new'],
   
   events: {
-    "click .btn": "submitForm",
+    "click .formsubmit": "submitForm",
   },
 
   // initialize: function() {

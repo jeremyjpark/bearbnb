@@ -15,6 +15,7 @@ json.extract!(@place,
   :phonenum,
   :desc,
   :address,
+  :image_urls,
   :created_at, 
   :updated_at
 )
