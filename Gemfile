@@ -18,7 +18,6 @@ gem 'momentjs-rails', '>= 2.8.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
 gem 'figaro'
 gem 'filepicker-rails'
-gem 'gon'
 
 group :doc do
   gem 'sdoc', require: false

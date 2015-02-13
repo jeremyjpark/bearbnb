@@ -1,0 +1,38 @@
+BearBnb.Views.PlaceShow = Backbone.View.extend({
+
+  template: JST['places/show'],
+
+  initialize: function() {
+    this.listenTo(this.model, "sync", this.render);
+  },
+
+  render: function() {
+    var attrs = [ "title", "price", "deposit", "utilities", "room", "preference", "laundry", "agreement", "address", "start_date", "end_date", "desc" ];  
+    var urls = [ "image_urls" ];
+    var content = this.template({
+      images: urls,
+      details: attrs,
+      place: this.model
+    });
+    var id = this.model.get("id");
+    this.addressQuery(id);
+    this.$el.html(content);
+    return this;
+  },
+
+  addressQuery: function(id) {
+    var query = $.ajax({
+      url: "api/places/" + id,
+      type: "GET",
+      success: function(place) {
+        var addressQuery = place.address.split(" ").join("%20");
+        $('.small-map').html("<iframe width=\"600\" height=\"450\" frameborder=\"0\" style=\" border:0\" src=\"https://www.google.com/maps/embed/v1/search?q=" + addressQuery + "&key=<%= ENV['google_api_key'] %>\"></iframe>")
+      }
+      // "api/places/" + id, function(place) {
+      // query = place.address.split(" ").join("%20")
+      // console.log(query)
+    });
+
+    // return query
+  }
+});

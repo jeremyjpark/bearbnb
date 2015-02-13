@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
   </head>
+
   <body data-env="<%= Rails.env %>">
     <header>
       <%= render 'shared/nav' %>
@@ -21,6 +22,14 @@
   <body>
 
     <%= yield %>
+
+      <% if Rails.env.production? %>
+    <% api_key = "key=AIzaSyBF_Ppz0dfiXFAf0oaaYaUVF0HnazPN_-E" %>
+  <% else %>
+    <% api_key = '' %>
+  <% end %>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
     <script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js">
       filepicker.setKey("<%= ENV["filepicker_api_key"] %>")
