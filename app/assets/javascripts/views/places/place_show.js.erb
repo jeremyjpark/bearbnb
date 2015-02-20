@@ -26,7 +26,7 @@ BearBnb.Views.PlaceShow = Backbone.View.extend({
       type: "GET",
       success: function(place) {
         var addressQuery = place.address.split(" ").join("%20");
-        $('.small-map').html("<iframe width=\"600\" height=\"450\" frameborder=\"0\" style=\" border:0\" src=\"https://www.google.com/maps/embed/v1/search?q=" + addressQuery + "&key=<%= ENV['filepicker_api_key'] %>\"></iframe>")
+        $('.small-map').html("<iframe width=\"600\" height=\"450\" frameborder=\"0\" style=\" border:0\" src=\"https://www.google.com/maps/embed/v1/search?q=" + addressQuery + "&key=<%= ENV['google_api_key'] %>\"></iframe>")
       }
       // "api/places/" + id, function(place) {
       // query = place.address.split(" ").join("%20")
