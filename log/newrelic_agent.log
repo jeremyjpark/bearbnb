@@ -1907,3 +1907,176 @@ Load paths:
 [02/16/15 13:45:52 -0800 Jeremys-MacBook-Pro-4.local (36904)] INFO : Doing deferred dependency-detection before Rack startup
 [02/16/15 13:46:18 -0800 Jeremys-MacBook-Pro-4.local (36904)] ERROR : Invalid license key, please contact support@newrelic.com
 [02/16/15 13:46:18 -0800 Jeremys-MacBook-Pro-4.local (36904)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Environment: development
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : No known dispatcher detected.
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Application: development
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing Net instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing deferred Rack instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing Rack::Builder middleware instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing Rails 3+ middleware instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing Rails 4 view instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Installing Rails 4 Error instrumentation
+[02/18/15 17:12:17 -0800 Jeremys-MacBook-Pro-4.local (51898)] INFO : Finished instrumentation
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Environment: development
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : No known dispatcher detected.
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Application: development
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing Net instrumentation
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing deferred Rack instrumentation
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing Rack::Builder middleware instrumentation
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing Rails 3+ middleware instrumentation
+[02/18/15 17:24:49 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/15 17:24:50 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing Rails 4 view instrumentation
+[02/18/15 17:24:50 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Installing Rails 4 Error instrumentation
+[02/18/15 17:24:50 -0800 Jeremys-MacBook-Pro-4.local (52067)] INFO : Finished instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Environment: development
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : No known dispatcher detected.
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Application: development
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing Net instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing deferred Rack instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing Rack::Builder middleware instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing Rails 3+ middleware instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing Rails 4 view instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Installing Rails 4 Error instrumentation
+[02/18/15 17:25:06 -0800 Jeremys-MacBook-Pro-4.local (52071)] INFO : Finished instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Environment: development
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Dispatcher: webrick
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Application: development
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing Net instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing deferred Rack instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing Rack::Builder middleware instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing Rails 3+ middleware instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing Rails 4 view instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Installing Rails 4 Error instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Finished instrumentation
+[02/18/15 17:52:29 -0800 Jeremys-MacBook-Pro-4.local (52495)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/15 17:52:57 -0800 Jeremys-MacBook-Pro-4.local (52495)] ERROR : Invalid license key, please contact support@newrelic.com
+[02/18/15 17:52:57 -0800 Jeremys-MacBook-Pro-4.local (52495)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Environment: development
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : No known dispatcher detected.
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Application: development
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing Net instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing deferred Rack instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing Rack::Builder middleware instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing Rails 3+ middleware instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing Rails 4 view instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Installing Rails 4 Error instrumentation
+[02/18/15 17:55:46 -0800 Jeremys-MacBook-Pro-4.local (52535)] INFO : Finished instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Environment: development
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : No known dispatcher detected.
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Application: development
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing Net instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing deferred Rack instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing Rack::Builder middleware instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing Rails 3+ middleware instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing Rails 4 view instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Installing Rails 4 Error instrumentation
+[02/18/15 18:03:54 -0800 Jeremys-MacBook-Pro-4.local (52833)] INFO : Finished instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Environment: development
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : No known dispatcher detected.
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Application: development
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing Net instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing deferred Rack instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing Rack::Builder middleware instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing Rails 3+ middleware instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing Rails 4 view instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Installing Rails 4 Error instrumentation
+[02/19/15 13:29:18 -0800 Jeremys-MacBook-Pro-4.local (59028)] INFO : Finished instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Environment: development
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : No known dispatcher detected.
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Application: development
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing Net instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing deferred Rack instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing Rack::Builder middleware instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing Rails 3+ middleware instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing Rails 4 view instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Installing Rails 4 Error instrumentation
+[02/19/15 13:29:32 -0800 Jeremys-MacBook-Pro-4.local (59032)] INFO : Finished instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Environment: development
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : No known dispatcher detected.
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Application: development
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing Net instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing deferred Rack instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing Rack::Builder middleware instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing Rails 3+ middleware instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing Rails 4 view instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Installing Rails 4 Error instrumentation
+[02/19/15 13:29:39 -0800 Jeremys-MacBook-Pro-4.local (59035)] INFO : Finished instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] WARN : No configuration file found. Working directory = /Users/jeremyjpark/Documents/appacadamy/final-project
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] WARN : Looked in these locations (based on defaults): /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/config/newrelic.yml, /Users/jeremyjpark/Documents/appacadamy/final-project/newrelic.yml, /Users/jeremyjpark/.newrelic/newrelic.yml, /Users/jeremyjpark/newrelic.yml
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Environment: development
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : No known dispatcher detected.
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Application: development
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing Net instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing deferred Rack instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing Rack::Builder middleware instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing Rails 3+ middleware instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing Rails 4 view instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Installing Rails 4 Error instrumentation
+[02/19/15 13:30:07 -0800 Jeremys-MacBook-Pro-4.local (59041)] INFO : Finished instrumentation

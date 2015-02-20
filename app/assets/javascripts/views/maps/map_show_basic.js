@@ -6,10 +6,9 @@ BearBnb.Views.BasicShow = Backbone.View.extend({
   render: function () {
     // ONLY CALL THIS ONCE!
     var mapOptions = {
-      center: { lat: 37.8717, lng: -122.2728},
-      zoom: 12
+      center: { lat: 37.8718992, lng: -122.2585399},
+      zoom: 15
     };
-
     this._map = new google.maps.Map(this.el, mapOptions);
   }
 

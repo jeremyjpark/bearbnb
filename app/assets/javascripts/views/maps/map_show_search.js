@@ -9,7 +9,7 @@ BearBnb.Views.SearchShow = Backbone.View.extend({
       collection: this.collection
     });
 
-    this.listingsIndex = new GoogleMapsDemo.Views.ListingsIndex({
+    this.listingsIndex = new BearBnb.Views.PlacesIndex({
       collection: this.collection
     });
   },

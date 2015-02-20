@@ -18,6 +18,7 @@ BearBnb.Routers.Router = Backbone.Router.extend({
   },
 
   search: function() {
+    // show the search filter view that reroutes to the filtered listings on success
     BearBnb.Collections.places.fetch();
     var view = new BearBnb.Views.SearchShow({
       collection: BearBnb.Collections.places
@@ -31,7 +32,7 @@ BearBnb.Routers.Router = Backbone.Router.extend({
       success: function() {
         var newView = new BearBnb.Views.PlacesIndex({
           collection: BearBnb.Collections.places
-        });        
+        });
         that._swapview(newView);
       }
     });
@@ -61,6 +62,14 @@ BearBnb.Routers.Router = Backbone.Router.extend({
 
   },
 
+  showMap: function() {
+    BearBnb.Collections.places.fetch();
+    var mapshow = new BearBnb.Views.EventMapShow({
+      collection: BearBnb.Collections.places
+    });
+    this._swapview(mapshow);
+  },
+
   _searchSwapview: function(view) {
     this._currentView && this._currentView.remove();
     this._currentView = view;
@@ -69,8 +78,13 @@ BearBnb.Routers.Router = Backbone.Router.extend({
   },
 
   _swapview: function(view) {
+    // this._currentView && this._currentView.remove();
+    // this.$rootEl.html(view.render().$el);
+    // this._currentView = view;
     this._currentView && this._currentView.remove();
-    this.$rootEl.html(view.render().$el);
     this._currentView = view;
+    this.$rootEl.html(view.$el);
+    view.render();
+
   }
 });

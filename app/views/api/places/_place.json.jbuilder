@@ -17,6 +17,8 @@ json.extract!(
   :desc,
   :address,
   :image_urls,
+  :latitude,
+  :longitude,
   :created_at, 
   :updated_at
 )
