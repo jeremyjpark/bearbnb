@@ -32,3 +32,6 @@ group :development do
   gem 'byebug'
 end
 
+group :production do
+  gem 'puma'
+end
