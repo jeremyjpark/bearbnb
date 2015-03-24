@@ -19,7 +19,7 @@ gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
 gem 'figaro'
 gem 'filepicker-rails'
 gem 'geocoder'
-gem 'puma'
+# gem 'puma'
 
 group :doc do
   gem 'sdoc', require: false
@@ -34,5 +34,5 @@ group :development do
 end
 
 group :production do
-  gem 'puma'
+  # gem 'puma'
 end
