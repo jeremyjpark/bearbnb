@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3340872372">
+    <data-source source="LOCAL" name="Rails bearbnb: development" uuid="b0802cfb-e987-4405-9296-4499c82ef5e6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:BearBnb_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails bearbnb: test" uuid="a3d1f1c7-7e5d-4c14-bf9b-75345bb40390">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:BearBnb_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails bearbnb: production" uuid="b4e41a96-b995-4a7d-b7f1-17c3e3526d52">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:BearBnb_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails bearbnb: development" uuid="b0802cfb-e987-4405-9296-4499c82ef5e6">
+      <schema-pattern>BearBnb_development.*</schema-pattern>
+      <default-schemas>BearBnb_development.*</default-schemas>
+    </data-source>
+    <data-source name="Rails bearbnb: test" uuid="a3d1f1c7-7e5d-4c14-bf9b-75345bb40390">
+      <schema-pattern>BearBnb_test.*</schema-pattern>
+      <default-schemas>BearBnb_test.*</default-schemas>
+    </data-source>
+    <data-source name="Rails bearbnb: production" uuid="b4e41a96-b995-4a7d-b7f1-17c3e3526d52">
+      <first-sync>true</first-sync>
+      <user-name>jeremyjpark</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe8dfefdfebdff8dfe8dfe4dfe8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
